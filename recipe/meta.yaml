@@ -1,5 +1,5 @@
 {% set name = "runthis-sphinxext" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/regro/runthis-sphinxext/releases/download/{{ version }}/runthis-sphinxext-{{ version }}.tar.gz
-  sha256: c7c69050a7c256b88d06b19a992622bc9d214a009320009f273840113577e3f0
+  sha256: ecd00b0525c08296845f6442a865fd6c7019e3106bfd2d0e6f990c343ba3157b
 
 build:
   noarch: python
